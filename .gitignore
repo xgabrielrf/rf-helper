@@ -1,0 +1,40 @@
+# Python: caches e ambientes virtuais
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Dados de uma execução local (o programa grava em %APPDATA%\ChangeScreenRF, mas se algum dia for parar aqui, não sobe)
+servers.json
+config.json
+profiles.json
+icons/
+ChangeScreenRF/
+
+# Logs do jogo e do helper
+*.log
+NetLog/
+
+# Segredos e credenciais
+.env
+.env.*
+*.key
+*.pem
+*.dpapi
+secrets.*
+!modules/accounts/secrets.py
+
+# Ferramentas e editores locais
+.claude/
+CLAUDE.local.md
+.vscode/
+.idea/
+*.bak
+*.tmp
+
+# Imagens soltas na raiz (o logo é embutido em base64; o original não deve subir por engano)
+/*.png
+/*.ico
